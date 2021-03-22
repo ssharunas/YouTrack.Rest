@@ -41,5 +41,10 @@ namespace YouTrack.Rest
         {
             return new UserRepository(connection);
         }
+
+        public IVersionBundleRepository GetVersionBundleRepository()
+        {
+            return new VersionBundleRepository(connection);
+        }
     }
 }

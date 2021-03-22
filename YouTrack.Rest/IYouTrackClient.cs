@@ -9,5 +9,6 @@ namespace YouTrack.Rest
         IIssueRepository GetIssueRepository();
         IProjectRepository GetProjectRepository();
         IUserRepository GetUserRepository();
+        IVersionBundleRepository GetVersionBundleRepository();
     }
 }

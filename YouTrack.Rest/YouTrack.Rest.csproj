@@ -107,8 +107,10 @@
     <Compile Include="Repositories\IProjectRepository.cs" />
     <Compile Include="Repositories\IssueRepository.cs" />
     <Compile Include="Repositories\IUserRepository.cs" />
+    <Compile Include="Repositories\IVersionBundleRepository.cs" />
     <Compile Include="Repositories\ProjectRepository.cs" />
     <Compile Include="Repositories\UserRepository.cs" />
+    <Compile Include="Repositories\VersionBundleRepository.cs" />
     <Compile Include="Requests\Issues\AddCommentToIssueRequest.cs" />
     <Compile Include="Requests\Issues\ApplyCommandsToAnIssueRequest.cs" />
     <Compile Include="Requests\Issues\ApplyCommandToAnIssueRequest.cs" />
@@ -145,6 +147,7 @@
     <Compile Include="Requests\Users\GetUserRequest.cs" />
     <Compile Include="Requests\Users\GetUserRolesRequest.cs" />
     <Compile Include="Requests\Users\GetUsersGroupsRequest.cs" />
+    <Compile Include="Requests\Versions\AddBundleVersionRequest.cs" />
     <Compile Include="Requests\YouTrackRequest.cs" />
     <Compile Include="User.cs" />
     <Compile Include="UserActions.cs" />
